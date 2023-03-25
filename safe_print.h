@@ -95,7 +95,7 @@
  * - lower:              lower case for hex characters and printing strings in lowercase
  *
  * Multiple specifiers can be combined with a : (e.g. {min(20):hex:fill(*)} )
- * If the specifier is not useful for the argument it will be ignored, clashing
+ * If the specifier is not useful for the argument it will be ignored, repeating
  * specifiers will be overridden.
  *
  * On error the function returns a negative integer describing the error.
@@ -161,6 +161,7 @@
  * - shorter format specifiers, maybe > and < for min and max, etc...
  * - the error codes are not correct or not appropriate sometimes
  * - refactor some of the code to make it more readable and shorter
+ * - remove magic numbers
  * - remove some unnecessary functions
  *
  * ***************************************************************************/
